@@ -29,4 +29,4 @@ class unoClientSystem(ClientSystem):
         print '==== OnTickClient ===='
         N = str(len(clientApi.GetPlayerList()))
         comp = clientApi.GetEngineCompFactory().CreateGame(levelId)
-        comp.SetTipMessage("在线人数：{}".format(N)
+        comp.SetTipMessage("在线人数：{}".format(N))
