@@ -30,7 +30,7 @@
     "GameType": 1,
     "Id": "f8db533700ed4cd887ded3e4bb026bb0",
     "IsMap": true,
-    "NewEditCount": 16,
+    "NewEditCount": 14,
     "OldComponents": [
 
     ],
@@ -45,7 +45,7 @@
     "ShowGpuDriverTips": false,
     "ShowGuide": false,
     "Source": "import",
-    "StudioPort": 10239,
+    "StudioPort": 12347,
     "StudioTempPath": "D:\\MCStudioDownload\\temp\\editorTemp",
     "UserId": "105635",
     "UserName": "北源_阿尔法",
