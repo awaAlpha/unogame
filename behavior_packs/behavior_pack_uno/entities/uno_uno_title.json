@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:entity": {
+        "component_groups": {
+
+        },
+        "components": {
+            "minecraft:nameable": {
+                "allowNameTagRenaming": true,
+                "alwaysShow": true
+            },
+            "minecraft:persistent": {
+
+            }
+        },
+        "description": {
+            "identifier": "uno:uno_title",
+            "is_experimental": false,
+            "is_summonable": true
+        },
+        "events": {
+
+        }
+    }
+}
