@@ -1,0 +1,13 @@
+{
+    "minecraft:item": {
+        "description": {
+            "category": "Items", 
+            "identifier": "uno:4y", 
+            "register_to_create_menu": true
+        }, 
+        "components": {
+            "minecraft:icon": "uno:4y"
+        }
+    }, 
+    "format_version": "1.10"
+}

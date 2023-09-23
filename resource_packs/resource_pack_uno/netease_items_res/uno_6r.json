@@ -1,0 +1,13 @@
+{
+    "minecraft:item": {
+        "description": {
+            "category": "Items", 
+            "identifier": "uno:6r", 
+            "register_to_create_menu": true
+        }, 
+        "components": {
+            "minecraft:icon": "uno:6r"
+        }
+    }, 
+    "format_version": "1.10"
+}

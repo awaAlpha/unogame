@@ -1,0 +1,13 @@
+{
+    "minecraft:item": {
+        "description": {
+            "category": "Items", 
+            "identifier": "uno:skip_y", 
+            "register_to_create_menu": true
+        }, 
+        "components": {
+            "minecraft:icon": "uno:skip_y"
+        }
+    }, 
+    "format_version": "1.10"
+}

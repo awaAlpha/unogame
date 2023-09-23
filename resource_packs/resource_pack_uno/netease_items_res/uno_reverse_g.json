@@ -1,0 +1,13 @@
+{
+    "minecraft:item": {
+        "description": {
+            "category": "Items", 
+            "identifier": "uno:reverse_g", 
+            "register_to_create_menu": true
+        }, 
+        "components": {
+            "minecraft:icon": "uno:reverse_g"
+        }
+    }, 
+    "format_version": "1.10"
+}

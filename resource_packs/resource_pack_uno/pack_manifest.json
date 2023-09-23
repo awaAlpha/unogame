@@ -1,0 +1,25 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Northern Energy Team",
+        "name": "Mincraft UNO",
+        "uuid": "bad8435c-865f-4ba7-9692-aca6c89e9c07",
+        "version": [
+            0,
+            0,
+            1
+        ]
+    },
+    "modules": [
+        {
+            "description": "Northern Energy Team",
+            "type": "resources",
+            "uuid": "d9309189-13f6-4b70-bb0c-7bef089bd393",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}

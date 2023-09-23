@@ -1,0 +1,32 @@
+{
+    "animations": {
+        "animation.hammer.first_hold": {
+            "bones": {
+                "RightArm": {
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "rotation": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "scale": 1
+                }
+            },
+            "loop": true,
+            "particle_effects": {
+
+            },
+            "sound_effects": {
+
+            },
+            "timeline": {
+
+            }
+        }
+    },
+    "format_version": "1.8.0"
+}
