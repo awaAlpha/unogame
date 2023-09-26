@@ -28,5 +28,21 @@ class unoClientSystem(ClientSystem):
     def OnTickClient(self):
         print '==== OnTickClient ===='
         N = str(len(clientApi.GetPlayerList()))
+        global N
         comp = clientApi.GetEngineCompFactory().CreateGame(levelId)
         comp.SetTipMessage("在线人数：{}".format(N))
+
+    def Playmode(self):
+        if N == 4:
+            playmode = classic
+        elif N == 3 :
+            playmode = threemode
+        elif N % 4 == 0:
+            playmode = multi
+        elif N < 3:
+            playmode = waiting
+        else:
+            playmode = spector
+        return playmode
+
+
