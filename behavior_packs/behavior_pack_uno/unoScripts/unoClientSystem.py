@@ -35,7 +35,7 @@ class unoClientSystem(ClientSystem):
     def Playmode(self):
         if N == 4:
             playmode = classic
-        elif N == 3 :
+        elif N == 3:
             playmode = threemode
         elif N % 4 == 0:
             playmode = multi
