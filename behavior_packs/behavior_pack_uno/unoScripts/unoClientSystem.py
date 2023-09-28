@@ -30,9 +30,10 @@ class unoClientSystem(ClientSystem):
         N = str(len(clientApi.GetPlayerList()))
         global N
         comp = clientApi.GetEngineCompFactory().CreateGame(levelId)
-        comp.SetTipMessage("在线人数：{}".format(N))
+        comp.SetTipMessage("§a在线人数：{}".format(N))
 
     def Playmode(self):
+        print '==== Playmode ===='
         if N == 4:
             playmode = classic
         elif N == 3:
@@ -44,4 +45,3 @@ class unoClientSystem(ClientSystem):
         else:
             playmode = spector
         return playmode
-
