@@ -1,0 +1,204 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "uno:0b": {
+            "textures": "textures/items/0b"
+        },
+        "uno:0g": {
+            "textures": "textures/items/0g"
+        },
+        "uno:0r": {
+            "textures": "textures/items/0r"
+        },
+        "uno:0y": {
+            "textures": "textures/items/0y"
+        },
+        "uno:1b": {
+            "textures": "textures/items/1b"
+        },
+        "uno:1g": {
+            "textures": "textures/items/1g"
+        },
+        "uno:1r": {
+            "textures": "textures/items/1r"
+        },
+        "uno:1y": {
+            "textures": "textures/items/1y"
+        },
+        "uno:2b": {
+            "textures": "textures/items/2b"
+        },
+        "uno:2g": {
+            "textures": "textures/items/2g"
+        },
+        "uno:2r": {
+            "textures": "textures/items/2r"
+        },
+        "uno:2y": {
+            "textures": "textures/items/2y"
+        },
+        "uno:3b": {
+            "textures": "textures/items/3b"
+        },
+        "uno:3g": {
+            "textures": "textures/items/3g"
+        },
+        "uno:3r": {
+            "textures": "textures/items/3r"
+        },
+        "uno:3y": {
+            "textures": "textures/items/3y"
+        },
+        "uno:4b": {
+            "textures": "textures/items/4b"
+        },
+        "uno:4g": {
+            "textures": "textures/items/4g"
+        },
+        "uno:4r": {
+            "textures": "textures/items/4r"
+        },
+        "uno:4y": {
+            "textures": "textures/items/4y"
+        },
+        "uno:5b": {
+            "textures": "textures/items/5b"
+        },
+        "uno:5g": {
+            "textures": "textures/items/5g"
+        },
+        "uno:5r": {
+            "textures": "textures/items/5r"
+        },
+        "uno:5y": {
+            "textures": "textures/items/5y"
+        },
+        "uno:6b": {
+            "textures": "textures/items/6b"
+        },
+        "uno:6g": {
+            "textures": "textures/items/6g"
+        },
+        "uno:6r": {
+            "textures": "textures/items/6r"
+        },
+        "uno:6y": {
+            "textures": "textures/items/6y"
+        },
+        "uno:7b": {
+            "textures": "textures/items/7b"
+        },
+        "uno:7g": {
+            "textures": "textures/items/7g"
+        },
+        "uno:7r": {
+            "textures": "textures/items/7r"
+        },
+        "uno:7y": {
+            "textures": "textures/items/7y"
+        },
+        "uno:8b": {
+            "textures": "textures/items/8b"
+        },
+        "uno:8g": {
+            "textures": "textures/items/8g"
+        },
+        "uno:8r": {
+            "textures": "textures/items/8r"
+        },
+        "uno:8y": {
+            "textures": "textures/items/8y"
+        },
+        "uno:9b": {
+            "textures": "textures/items/9b"
+        },
+        "uno:9g": {
+            "textures": "textures/items/9g"
+        },
+        "uno:9r": {
+            "textures": "textures/items/9r"
+        },
+        "uno:9y": {
+            "textures": "textures/items/9y"
+        },
+        "uno:coin": {
+            "textures": "textures/items/coin"
+        },
+        "uno:draw2_b": {
+            "textures": "textures/items/draw2_b"
+        },
+        "uno:draw2_g": {
+            "textures": "textures/items/draw2_g"
+        },
+        "uno:draw2_r": {
+            "textures": "textures/items/draw2_r"
+        },
+        "uno:draw2_y": {
+            "textures": "textures/items/draw2_y"
+        },
+        "uno:draw4": {
+            "textures": "textures/items/draw4"
+        },
+        "uno:draw4_b": {
+            "textures": "textures/items/draw4_b"
+        },
+        "uno:draw4_g": {
+            "textures": "textures/items/draw4_g"
+        },
+        "uno:draw4_r": {
+            "textures": "textures/items/draw4_r"
+        },
+        "uno:draw4_y": {
+            "textures": "textures/items/draw4_y"
+        },
+        "uno:guide": {
+            "textures": "textures/items/guide"
+        },
+        "uno:reverse_b": {
+            "textures": "textures/items/reverse_b"
+        },
+        "uno:reverse_g": {
+            "textures": "textures/items/reverse_g"
+        },
+        "uno:reverse_r": {
+            "textures": "textures/items/reverse_r"
+        },
+        "uno:reverse_y": {
+            "textures": "textures/items/reverse_y"
+        },
+        "uno:skip_b": {
+            "textures": "textures/items/skip_b"
+        },
+        "uno:skip_g": {
+            "textures": "textures/items/skip_g"
+        },
+        "uno:skip_r": {
+            "textures": "textures/items/skip_r"
+        },
+        "uno:skip_y": {
+            "textures": "textures/items/skip_y"
+        },
+        "uno:uno": {
+            "textures": "textures/items/uno"
+        },
+        "uno:wild": {
+            "textures": "textures/items/wild"
+        },
+        "uno:wild_air": {
+            "textures": "textures/items/wild_air"
+        },
+        "uno:wild_b": {
+            "textures": "textures/items/wild_b"
+        },
+        "uno:wild_g": {
+            "textures": "textures/items/wild_g"
+        },
+        "uno:wild_r": {
+            "textures": "textures/items/wild_r"
+        },
+        "uno:wild_y": {
+            "textures": "textures/items/wild_y"
+        }
+    },
+    "texture_name": "atlas.items"
+}

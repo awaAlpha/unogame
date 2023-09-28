@@ -1,0 +1,53 @@
+{
+    "Account": "alpha5dev@163.com",
+    "AssertCacheDir": "D:\\MCStudioDownload\\EngineAssert",
+    "BlockNums": [
+        0,
+        0
+    ],
+    "BornPoint": [
+        0,
+        0,
+        0
+    ],
+    "CanPublishResourceComponent": true,
+    "CodeEnable": true,
+    "CreateNew": false,
+    "CreateVersion": "2.7.0.395512",
+    "DCWebUrl": "https://x19apigatewayexpr.nie.netease.com",
+    "EditAddOnPaths": [
+
+    ],
+    "EditLogFilePath": "D:\\MCStudioDownload\\work\\editor\\edit.log",
+    "EditMaterialPaths": [
+
+    ],
+    "EditName": "UNO",
+    "EditType": 2,
+    "EditVersion": "2.8.0.459165",
+    "EditorResourcePackPath": "D:\\MCStudio\\data\\inner_res",
+    "ElkUrl": "https://x19mclexpr.nie.netease.com/client-log",
+    "GameType": 1,
+    "Id": "f8db533700ed4cd887ded3e4bb026bb0",
+    "IsMap": true,
+    "NewEditCount": 14,
+    "OldComponents": [
+
+    ],
+    "OldEditCount": 0,
+    "ResourceIds": [
+
+    ],
+    "SaveBackAddOnPath": "",
+    "SaveBackMapPath": "D:\\PFO1HQ2\\alpha5dev@163.com\\Cpp\\Map\\unogame",
+    "Seed": "-1227665548440375036",
+    "ServerName": "EXPR",
+    "ShowGpuDriverTips": false,
+    "ShowGuide": false,
+    "Source": "import",
+    "StudioPort": 12347,
+    "StudioTempPath": "D:\\MCStudioDownload\\temp\\editorTemp",
+    "UserId": "105635",
+    "UserName": "北源_阿尔法",
+    "WorldType": 1
+}

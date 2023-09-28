@@ -1,0 +1,30 @@
+{
+    "minecraft:attachable": {
+        "description": {
+            "textures": {
+                "default": "textures/models/entity/9r"
+            }, 
+            "geometry": {
+                "default": "geometry.unocard"
+            }, 
+            "animations": {
+                "fh": "animation.unocard.first_hold"
+            }, 
+            "render_controllers": [
+                "controller.render.cow"
+            ], 
+            "materials": {
+                "default": "entity_alphatest"
+            }, 
+            "scripts": {
+                "animate": [
+                    {
+                        "fh": "c.is_first_person"
+                    }
+                ]
+            }, 
+            "identifier": "uno:9r"
+        }
+    }, 
+    "format_version": "1.10.0"
+}
