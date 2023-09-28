@@ -45,4 +45,3 @@ class unoClientSystem(ClientSystem):
             playmode = spector
         return playmode
 
-
