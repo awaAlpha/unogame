@@ -22,7 +22,7 @@ class unoServerSystem(ServerSystem):
         playerId = args["playerId"]
         if args["message"] == "关于":
             args["cancel"] = True
-            about = '\n关于：\n\n地图名：Minecraft UNO\n地图版本：1.0\n制作团队：北源TEAM\n团队制作人：阿尔法\n非团队制作人：幼稚羱羊、金苹果闯世界i、小沙馒包\n\n逻辑制作语言：Python 2.7.18\n含有的软件包：math、mc-netease-sdk\n\n如果你喜欢本地图请给一个五星好评！\n请去资源中心给 北源_阿尔法 一个订阅awa！'
+            about = '\n关于：\n\n地图名：Minecraft UNO\n地图版本：1.0\n制作团队：北源TEAM\n团队制作人：阿尔法、一云秋水\n非团队制作人：幼稚羱羊、金苹果闯世界i、小沙馒包\n\n逻辑制作语言：Python 2.7.18\n含有的软件包：math、mc-netease-sdk\n\n如果你喜欢本地图请给一个五星好评！\n请去资源中心给 北源_阿尔法 一个订阅awa！'
             comp = serverApi.GetEngineCompFactory().CreateMsg(playerId)
             comp.NotifyOneMessage(playerId, about)
         elif args["message"] == "简介":
