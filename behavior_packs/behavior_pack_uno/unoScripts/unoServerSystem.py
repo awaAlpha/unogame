@@ -71,7 +71,6 @@ class unoServerSystem(ServerSystem):
     Y1 = (2.50, 69.50, -4.00)
     Y2 = (-1.50, 69.50, -4.00)
 
-    def TpCmd(self, target, positions):
-        (x, y, z) = positions
+    def TpCmd(self, target, (x, y, z)):
         comp = serverApi.GetEngineCompFactory().CreateCommand(levelId)
         comp.SetCommand("/tp {} {} {} {}".format(target, x, y, z))
