@@ -3,6 +3,7 @@
 import mod.server.extraServerApi as serverApi
 ServerSystem = serverApi.GetServerSystemCls()
 compFactory = serverApi.GetEngineCompFactory()
+levelId = serverApi.GetLevelId()
 
 
 class unoServerSystem(ServerSystem):
@@ -60,3 +61,17 @@ class unoServerSystem(ServerSystem):
             feedback = '\n反馈：\n\n嗨！这里是法法（阿尔法）~你有问题想反馈吗？请尝试以下邮箱哦！\n\nalpha5dev@163.com\n\n法法会尽快处理的哈！'
             comp = serverApi.GetEngineCompFactory().CreateMsg(playerId)
             comp.NotifyOneMessage(playerId, feedback)
+
+    R1 = (-4.00, 69.50, -1.50)
+    R2 = (-4.00, 69.50, 2.50)
+    G1 = (-1.50, 69.50, 5.00)
+    G2 = (2.50, 69.50, 5.00)
+    B1 = (5.00, 69.50, 2.50)
+    B2 = (5.00, 69.50, -1.50)
+    Y1 = (2.50, 69.50, -4.00)
+    Y2 = (-1.50, 69.50, -4.00)
+
+    def TpCmd(self, target, positions):
+        (x, y, z) = positions
+        comp = serverApi.GetEngineCompFactory().CreateCommand(levelId)
+        comp.SetCommand("/tp {} {} {} {}".format(target, x, y, z))
