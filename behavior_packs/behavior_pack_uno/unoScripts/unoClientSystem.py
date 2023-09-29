@@ -33,16 +33,16 @@ class unoClientSystem(ClientSystem):
         comp.SetTipMessage("§a在线人数：{}".format(N))
 
     def Playmode(self):
-        x = int(N)
+        ct = int(N)
         global playmode
         print '==== Playmode ===='
-        if x == 4:
+        if ct == 4:
             playmode = 'classic'
-        elif x == 3:
+        elif ct == 3:
             playmode = 'threemode'
-        elif x % 4 == 0:
+        elif ct % 4 == 0:
             playmode = 'multi'
-        elif x < 3:
+        elif ct < 3:
             playmode = 'waiting'
         else:
             playmode = 'spectator'

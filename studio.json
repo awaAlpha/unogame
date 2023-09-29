@@ -23,14 +23,14 @@
 
     ],
     "EditName": "UNO",
-    "EditType": 2,
+    "EditType": 1,
     "EditVersion": "2.8.0.459165",
     "EditorResourcePackPath": "D:\\MCStudio\\data\\inner_res",
     "ElkUrl": "https://x19mclexpr.nie.netease.com/client-log",
     "GameType": 1,
     "Id": "f8db533700ed4cd887ded3e4bb026bb0",
     "IsMap": true,
-    "NewEditCount": 14,
+    "NewEditCount": 15,
     "OldComponents": [
 
     ],
@@ -45,7 +45,7 @@
     "ShowGpuDriverTips": false,
     "ShowGuide": false,
     "Source": "import",
-    "StudioPort": 12347,
+    "StudioPort": 12411,
     "StudioTempPath": "D:\\MCStudioDownload\\temp\\editorTemp",
     "UserId": "105635",
     "UserName": "北源_阿尔法",
