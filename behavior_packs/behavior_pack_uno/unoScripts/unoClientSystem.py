@@ -33,15 +33,34 @@ class unoClientSystem(ClientSystem):
         comp.SetTipMessage("§a在线人数：{}".format(N))
 
     def Playmode(self):
+        x = int(N)
+        global playmode
         print '==== Playmode ===='
-        if N == 4:
-            playmode = classic
-        elif N == 3:
-            playmode = threemode
-        elif N % 4 == 0:
-            playmode = multi
-        elif N < 3:
-            playmode = waiting
+        if x == 4:
+            playmode = 'classic'
+        elif x == 3:
+            playmode = 'threemode'
+        elif x % 4 == 0:
+            playmode = 'multi'
+        elif x < 3:
+            playmode = 'waiting'
         else:
-            playmode = spector
+            playmode = 'spectator'
         return playmode
+
+    def PlayersId(self):
+        pl = clientApi.GetPlayerList()
+        p1 = pl[0]
+        p2 = pl[1]
+        p3 = pl[2]
+        p4 = pl[3]
+        p5 = pl[4]
+        p6 = pl[5]
+        p7 = pl[6]
+        p8 = pl[7]
+        p9 = pl[8]
+        p10 = pl[9]
+        return p1, p2, p3, p4, p5, p6, p7, p8, p9, p10
+
+    def SeatSave(self):
+        pass
