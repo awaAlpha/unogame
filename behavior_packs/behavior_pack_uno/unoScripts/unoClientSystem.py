@@ -51,7 +51,7 @@ class unoClientSystem(ClientSystem):
             playmode == 'spectator'
         return playmode
     def BC2(self):
-        pm = {"moshi": self.Playmode()}
+        pmd = {"moshi": self.Playmode()}
         self.NotifyToServer("GAME", pmd)
 
 
