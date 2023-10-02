@@ -40,15 +40,15 @@ class unoClientSystem(ClientSystem):
         global playmode
         print '==== Playmode ===='
         if ct == 4:
-            playmode = 'classic'
+            playmode == 'classic'
         elif ct == 3:
-            playmode = 'threemode'
+            playmode == 'threemode'
         elif ct % 4 == 0:
-            playmode = 'multi'
+            playmode == 'multi'
         elif ct < 3:
-            playmode = 'waiting'
+            playmode == 'waiting'
         else:
-            playmode = 'spectator'
+            playmode == 'spectator'
         return playmode
     def BC2(self):
         pm = {"moshi": self.Playmode()}

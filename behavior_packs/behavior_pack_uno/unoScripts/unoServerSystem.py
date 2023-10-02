@@ -96,4 +96,19 @@ class unoServerSystem(ServerSystem):
         comp = serverApi.GetEngineCompFactory().CreateCommand(levelId)
         comp.SetCommand("/tp {} {} {} {}".format(target, x, y, z))
     def SeatSave(self):
-        if pm:'classic'
+        print '==== SeatSave ===='
+        if pm == 'classic':
+             self.TpCmd((pl[0](-4.00, 69.50, -1.50)),(pl[1](-1.50, 69.50, 5.00)),(pl[2](5.00, 69.50, 2.50)),(pl[3](2.50, 69.50, -4.00)))
+        elif pm == 'threemode':
+             self.TpCmd((pl[0](-4.00, 69.50, -1.50)),(pl[1](-1.50, 69.50, 5.00)),(pl[2](5.00, 69.50, 2.50)))
+        elif pm == 'waiting':
+            self.TpCmd((pl[0](-4.00, 69.50, -1.50)), (pl[1](-1.50, 69.50, 5.00)))
+        elif pm == 'multi':
+            self.TpCmd((pl[0](-4.00, 69.50, -1.50)), (pl[1](-1.50, 69.50, 5.00)), (pl[2](5.00, 69.50, 2.50)),
+                       (pl[3](2.50, 69.50, -4.00)), (pl[4](-4.00, 69.50, 2.50)), (pl[5](2.50, 69.50, 5.00)), (pl[6](5.00, 69.50, -1.50)), (pl[7](-1.50, 69.50, -4.00))
+
+
+
+
+
+
