@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="460d4b68-a0f4-430a-984b-c4bd91cc65b1" name="更改" comment="changes">
-      <change beforePath="$PROJECT_DIR$/behavior_packs/behavior_pack_uno/unoScripts/unoServerSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/behavior_packs/behavior_pack_uno/unoScripts/unoServerSystem.py" afterDir="false" />
-    </list>
+    <list default="true" id="460d4b68-a0f4-430a-984b-c4bd91cc65b1" name="更改" comment="changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696240054929</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changes">
+      <option name="closed" value="true" />
+      <created>1696240137733</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696240137733</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
