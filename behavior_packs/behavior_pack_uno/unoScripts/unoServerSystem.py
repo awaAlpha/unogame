@@ -87,8 +87,8 @@ class unoServerSystem(ServerSystem):
     p9 = pl[8]
     p10 = pl[9]
 
-    def OnBC2(self, pm):
-        pm = pm["moshi"]
+    def OnBC2(self, pmd):
+        pm = pmd["moshi"]
         global pm
 
 
