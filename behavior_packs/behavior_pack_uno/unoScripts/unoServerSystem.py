@@ -17,6 +17,8 @@ class unoServerSystem(ServerSystem):
         print "==== ListenEvents ===="
         self.ListenForEvent(serverApi.GetEngineNamespace(), serverApi.GetEngineSystemName(), "ServerChatEvent", self,
                             self.OnServerChat)  # 监听玩家发送提问用词
+        self.ListenForEvent("unoScript", "unoClientSystem", "PlayersListIndex",  self, self.OnBC1)
+        self.ListenForEvent("unoScript", "unoClientSystem", "GAME", self, self.OnBC2)
 
     def OnServerChat(self, args):
         print "==== OnServerChat ==== ", args
@@ -70,7 +72,28 @@ class unoServerSystem(ServerSystem):
     B2 = (5.00, 69.50, -1.50)
     Y1 = (2.50, 69.50, -4.00)
     Y2 = (-1.50, 69.50, -4.00)
+    def OnBC1(self, pld):
+        pl = pld["Data"]
+        global pl
+
+    p1 = pl[0]
+    p2 = pl[1]
+    p3 = pl[2]
+    p4 = pl[3]
+    p5 = pl[4]
+    p6 = pl[5]
+    p7 = pl[6]
+    p8 = pl[7]
+    p9 = pl[8]
+    p10 = pl[9]
+
+    def OnBC2(self, pm):
+        pm = pm["moshi"]
+        global pm
+
 
     def TpCmd(self, target, (x, y, z)):
         comp = serverApi.GetEngineCompFactory().CreateCommand(levelId)
         comp.SetCommand("/tp {} {} {} {}".format(target, x, y, z))
+    def SeatSave(self):
+        if pm:'classic'

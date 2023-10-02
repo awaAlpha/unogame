@@ -60,6 +60,3 @@ class unoClientSystem(ClientSystem):
         pld = {"Data": self.PlayersId()}
         self.NotifyToServer("PlayersListIndex", pld)
 
-
-    def SeatSave(self):
-        pass

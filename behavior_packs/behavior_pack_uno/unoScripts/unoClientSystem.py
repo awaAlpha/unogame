@@ -10,6 +10,8 @@ class unoClientSystem(ClientSystem):
         ClientSystem.__init__(self, namespace, systemName)
         print "\nunoClientSystem\n"
         self.ListenEvents()
+        self.ListenForEvent(clientApi.GetEngineNamespace(), clientApi.GetEngineSystemName(), 'OnScriptTickServer', self,
+                            self.OnTickClient)
 
     def ListenEvents(self):
         print "==== ListenEvents ===="
@@ -31,6 +33,7 @@ class unoClientSystem(ClientSystem):
         global N
         comp = clientApi.GetEngineCompFactory().CreateGame(levelId)
         comp.SetTipMessage("§a在线人数：{}".format(N))
+        self.BC1
 
     def Playmode(self):
         ct = int(N)
@@ -47,20 +50,17 @@ class unoClientSystem(ClientSystem):
         else:
             playmode = 'spectator'
         return playmode
+    def BC2(self):
+        pm = {"moshi": self.Playmode()}
+        self.NotifyToServer("GAME", pm)
+
 
     def PlayersId(self):
         pl = clientApi.GetPlayerList()
-        p1 = pl[0]
-        p2 = pl[1]
-        p3 = pl[2]
-        p4 = pl[3]
-        p5 = pl[4]
-        p6 = pl[5]
-        p7 = pl[6]
-        p8 = pl[7]
-        p9 = pl[8]
-        p10 = pl[9]
-        return p1, p2, p3, p4, p5, p6, p7, p8, p9, p10
+        global p1
+        return pl
 
-    def SeatSave(self):
-        pass
+    def BC1(self):
+        pld = {"Data": self.PlayersId()}
+        self.NotifyToServer("PlayersListIndex", pld)
+

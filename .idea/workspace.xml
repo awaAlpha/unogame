@@ -6,19 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="460d4b68-a0f4-430a-984b-c4bd91cc65b1" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.unSaveMark" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/behavior_packs/behavior_pack_uno/unoScripts/unoClientSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/behavior_packs/behavior_pack_uno/unoScripts/unoClientSystem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/behavior_packs/behavior_pack_uno/unoScripts/unoServerSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/behavior_packs/behavior_pack_uno/unoScripts/unoServerSystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/000620.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/000626.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/000627.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/000628.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/db/CURRENT" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/MANIFEST-000613" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/studio.json" beforeDir="false" afterPath="$PROJECT_DIR$/studio.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/world_icon.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/world_icon.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unoClientSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/unoClientSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unoServerSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/unoServerSystem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +20,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Python27/Lib/site-packages/mod/server/component/engineCompFactoryServer.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -120,7 +118,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
